@@ -21,7 +21,7 @@ conda config --set show_channel_urls yes
 ```  
 #### 配置pip镜像源  
 在当前对用户目录下（C:\Users\xx\pip，xx 表示当前使用对用户，比如张三）创建一个 pip.ini，如下图。
-![img_3.png](img/img_3.png)
+![img_3.png](img/img_3.png)  
 图中我的用户名为mark（默认用户名为Administrator），pip文件夹需要自行创建。之后打开pip文件夹,新建pip.ini文件，并通过记事本或其他软件打开，并输入以下内容。其他可以参考[链接](https://www.runoob.com/w3cnote/pip-cn-mirror.html)
 ```cmd
 [global]
@@ -46,7 +46,7 @@ conda create -n （环境名称） python==(python版本号)
 #### pycharm选择环境
 创建环境后需要到pycharm中选择所使用的环境，首先在pycharm中打开项目，之后按照[视频](mp4/video_1.mp4)操作即可
 #### 安装项目所需库文件
-在控制台中输入`activate 环境名`以激活环境，激活成功后命令行首端会显示环境名，如下图：
+在控制台中输入`activate 环境名`以激活环境，激活成功后命令行首端会显示环境名，如下图：  
 ![img_6.png](img/img_6.png)
 ##### requirements.txt
 部分项目中会包含requirements.txt文件，文件中会包含此项目所需的库文件，例如：
